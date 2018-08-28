@@ -75,10 +75,10 @@ header {
 }
 header nav a {
 	color: lightgrey;
-	margin: 0px 10px 10px 20px;
+	margin: 20px 60px 20px 0px;
 	text-decoration: none;
 }
-header .logo {
+.logo {
 	display: inline-block;
 	margin: 0px;
 	text-align: right;
@@ -114,21 +114,33 @@ section.info {
 	max-width: 100%;
 }
 
-section.info .blerbs {
+.blerbs {
 	display: inline-block;
 	text-align: left;
+	padding: 20px 0;
 }
 
-section.info .blerbs h1 {
-	
+.info-top .blerbs {
+	max-width: 49%;
 }
+.info-bottom .blerbs {
+	max-width: 33%;
+}
+
 
 .middle-img {
 	display: block;
 	margin: 0 auto;
+	max-width: 876px;
 }
 
+footer address {
+	margin: 20px 0;
+}
 
+.contact {
+	line-height: 20px;
+}
 
 .copyright {
 	margin: 0 auto;
