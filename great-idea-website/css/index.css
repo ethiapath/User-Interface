@@ -72,11 +72,13 @@ div.container {
 header {
 	padding: 10px 0px 20px 0;
 	display: inline-block;
-	width: 100%;
+	width: 876px;
+	background-color: gray;
+	position: fixed;
 }
 header nav a {
 	color: lightgrey;
-	margin: 20px 60px 20px 0px;
+	margin: 20px 55px 20px 4px;
 	text-decoration: none;
 }
 .logo {
@@ -86,6 +88,7 @@ header nav a {
 }
 
 .jumbotron {
+	padding-top: 68px;
 	margin: 0 auto;
 }
 .jumbotron img{
