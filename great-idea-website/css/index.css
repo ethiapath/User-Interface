@@ -72,6 +72,7 @@ div.container {
 header {
 	padding: 10px 0px 20px 0;
 	display: inline-block;
+	width: 100%;
 }
 header nav a {
 	color: lightgrey;
@@ -79,8 +80,8 @@ header nav a {
 	text-decoration: none;
 }
 .logo {
-	display: inline-block;
-	margin: 0px;
+	/* display: inline-block; */
+	margin: 0px 0px 0px 10px;
 	text-align: right;
 }
 
@@ -95,7 +96,7 @@ header nav a {
 	vertical-align: top;
 	text-align: center;
 	display: inline-block;
-	padding: 100px 50px 100px 50px;
+	padding: 100px 50px 100px 160px;
 }
 
 .heading h1 {
